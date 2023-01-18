@@ -23,7 +23,7 @@ else:
 client = Client(account_sid, auth_token)
 message = client.messages\
     .create(
-        body=" hey there☔️",
+        body=f" hey there,{content}☔️",
         from_="ur_no",
         to="to_no"
     )
